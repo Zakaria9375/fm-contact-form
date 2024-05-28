@@ -6,19 +6,31 @@ This is a solution to the [Contact form challenge on Frontend Mentor](https://ww
 
 ### Figma Design
 
-![Design preview](./src/assets/desktop-preview.jpg)
+<p align="center">
+<img src="./src/assets/desktop-preview.jpg" alt="Design Preview" width="800">
+</p>
 
 ### Outcome
 
-
+<p align="center">
+<img src="./src/assets/outcome.gif" alt="Live Outcome" width="800">
+</p>
 
 ## Technologies
 
 The technologies used in this project are:
 
-* HTML & Tailwind & Ts
-* Angular
-* Unit testing
+* HTML & Tailwind & TypeScript
+* Angular (animation, reactive forms)
+* Unit testing (Jasmine)
+
+## Features
+
+* Responsive Design: Ensures the form looks great on all devices.
+* Form Validation: Real-time validation with meaningful error messages.
+* Accessibility: Built with accessibility in mind, including ARIA roles and keyboard navigation.
+* Animations: Smooth animations for form interactions.
+* Unit testing: Comprehensive unit tests to ensure code reliability.
 
 ## Setup
 
@@ -37,8 +49,8 @@ ng serve
 
 ## Links
 
-* [Challenge](https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj)
-* [Live](https://za-contact-form.netlify.app/)
+* [Challenge Page](https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj)
+* [Live Demo](https://za-contact-form.netlify.app/)
 
 ## Testing
 
@@ -51,17 +63,29 @@ This app has been built with care and attention to every detail to make it acces
 * Static code analysis: No errors(using semantic HTML).
 * Proper usage of aria rules.
 
-![Accessibility test](./src/assets/access.png)
+<p align="center">
+<img src="./src/assets/access.PNG" alt="Accessibility test">
+</p>
 
 ### Unit Testing
 
-To run the tests after setting the app in development mode, open a new terminal and write the following:
+This project uses Jasmine and karma for unit testing
+
+<p align="center">
+<img src="./src/assets/tests.PNG" alt="Unit tests" width="600">
+</p>
+
+To run and execute all the unit tests defined in the project after setting the app in development mode, open a new terminal and write the following:
 
 ```shell
 ng test
 ```
 
 ### Lighthouse report
+
+<p align="center">
+<img src="./src/assets/light-house.PNG" alt="Lighthouse tests" width="600">
+</p>
 
 
 ## About the Author
