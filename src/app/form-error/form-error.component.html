@@ -1,0 +1,5 @@
+@if (control?.touched && control?.errors) {
+  @for (err of errorMessages; track $index) {
+    <p [@enter] aria-live="polite" [id]="err.id">{{err.message}}</p>
+  }
+}

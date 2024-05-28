@@ -1,27 +1,83 @@
-# FmContactForm
+# Frontend Mentor - Contact form
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
+This is a solution to the [Contact form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Development server
+## Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Figma Design
 
-## Code scaffolding
+![Design preview](./src/assets/desktop-preview.jpg)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Outcome
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Technologies
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The technologies used in this project are:
 
-## Running end-to-end tests
+* HTML & Tailwind & Ts
+* Angular
+* Unit testing
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Setup
 
-## Further help
+To run this app in development mode open the terminal and write the following:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```shell  
+git clone https://github.com/Zakaria9375/fm-contact-form.git 
+cd fm-contact-form  
+npm install 
+ 
+# you need to install angular cli to run this app in development mode
+npm install -g @angular/cli
+
+ng serve
+```
+
+## Links
+
+* [Challenge](https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj)
+* [Live](https://za-contact-form.netlify.app/)
+
+## Testing
+
+### Accessibility
+
+This app has been built with care and attention to every detail to make it accessible to everyone So, you can expect the following:
+
+* Zooming: No loss of content or functionality.
+* Keyboard-only: Interactive elements are accessible(focusable and clickable).
+* Static code analysis: No errors(using semantic HTML).
+* Proper usage of aria rules.
+
+![Accessibility test](./src/assets/access.png)
+
+### Unit Testing
+
+To run the tests after setting the app in development mode, open a new terminal and write the following:
+
+```shell
+ng test
+```
+
+### Lighthouse report
+
+
+## About the Author
+
+* Portfolio - [Zakaria Ali](https://zaportfolio.netlify.app/)
+* Frontend Mentor Profile - [@Zakaria9375](https://www.frontendmentor.io/profile/Zakaria9375)
+* Project by - [Frontend Mentor team](https://www.frontendmentor.io/)
+
+## Contributing
+
+**Want to contribute?** *Great!* Here’s how you can help:
+
+1. Fork the repo and create your branch from `main`.
+2. Make your changes and test.
+3. Issue that "pull" request!
+
+## License
+
+Copyright (c) 2024-present, Zakaria Ali

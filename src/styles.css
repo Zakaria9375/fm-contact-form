@@ -1,1 +1,59 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: 'Karla';
+  src: url('assets/fonts/Karla-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Karla';
+  src: url('assets/fonts/Karla-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *:focus {
+    @apply  shadow-xl;
+  }
+  body {
+    @apply font-sans bg-green-light text-[1rem] leading-[150%] relative ;
+  }
+  input[type=text], textarea {
+    @apply mt-100 px-300 py-150 text-[1.125rem] border border-grey-light rounded-lg leading-[150%] focus:border-green-dark w-full;
+  }
+  input[type=checkbox], input[type=radio] {
+    @apply cursor-pointer;
+  }
+  input[type=radio] {
+    @apply text-green-dark size-[19.5px];
+  }
+  textarea {
+    @apply h-[240px] tablet:h-[105px];
+  }
+  label, legend {
+    @apply text-grey-dark block;
+  }
+  label span, legend span {
+    @apply ml-100 text-green-dark ;
+  }
+  p {
+    @apply text-red-err mt-100;
+  }
+}
+@layer components {
+  .query-type {
+    @apply flex-1 flex items-center gap-150 px-300 py-150 border border-grey-light has-[:checked]:border-green-dark has-[:checked]:bg-green-light rounded-lg;
+  }
+
+}
+
+.input-error {
+  border-color: #D73C3C !important;
+}
