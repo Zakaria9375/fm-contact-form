@@ -7,13 +7,13 @@ This is a solution to the [Contact form challenge on Frontend Mentor](https://ww
 ### Figma Design
 
 <p align="center">
-<img src="./src/assets/desktop-preview.jpg" alt="Design Preview" width="800">
+<img src="./src/assets/desktop-preview.jpg" alt="Design Preview" width="900">
 </p>
 
 ### Outcome
 
 <p align="center">
-<img src="./src/assets/outcome.gif" alt="Live Outcome" width="800">
+<img src="./src/assets/outcome.gif" alt="Live Outcome" width="900">
 </p>
 
 ## Technologies
@@ -72,7 +72,7 @@ This app has been built with care and attention to every detail to make it acces
 This project uses Jasmine and karma for unit testing
 
 <p align="center">
-<img src="./src/assets/tests.PNG" alt="Unit tests" width="600">
+<img src="./src/assets/tests.PNG" alt="Unit tests" width="800">
 </p>
 
 To run and execute all the unit tests defined in the project after setting the app in development mode, open a new terminal and write the following:
@@ -84,7 +84,7 @@ ng test
 ### Lighthouse report
 
 <p align="center">
-<img src="./src/assets/light-house.PNG" alt="Lighthouse tests" width="600">
+<img src="./src/assets/light-house.PNG" alt="Lighthouse tests" width="800">
 </p>
 
 
