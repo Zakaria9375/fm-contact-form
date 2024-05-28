@@ -26,11 +26,12 @@ The technologies used in this project are:
 
 ## Features
 
-* Responsive Design: Ensures the form looks great on all devices.
-* Form Validation: Real-time validation with meaningful error messages.
-* Accessibility: Built with accessibility in mind, including ARIA roles and keyboard navigation.
-* Animations: Smooth animations for form interactions.
-* Unit testing: Comprehensive unit tests to ensure code reliability.
+* **Responsive Design**: Ensures the form looks great on all devices.
+* **Form Validation**: Real-time validation with meaningful error messages.
+* **Accessibility**: Built with accessibility in mind, including ARIA roles and keyboard navigation.
+* **Animations**: Smooth animations for form interactions.
+* **Unit testing**: Comprehensive unit tests to ensure code reliability.
+* **Identical Design**: Compared to figma design, there is no difference except what has to be considered for better ux. 
 
 ## Setup
 
